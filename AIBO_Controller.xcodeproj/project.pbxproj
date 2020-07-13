@@ -11,16 +11,10 @@
 		0D04C43C24BB6B9300E70F40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04C43B24BB6B9300E70F40 /* SceneDelegate.swift */; };
 		0D04C43E24BB6B9300E70F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04C43D24BB6B9300E70F40 /* ViewController.swift */; };
 		0D04C44124BB6B9300E70F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D04C43F24BB6B9300E70F40 /* Main.storyboard */; };
-		0D04C44324BB6B9700E70F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D04C44224BB6B9700E70F40 /* Assets.xcassets */; };
 		0D04C44624BB6B9700E70F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D04C44424BB6B9700E70F40 /* LaunchScreen.storyboard */; };
 		0D04C45124BB6B9800E70F40 /* AIBO_ControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04C45024BB6B9800E70F40 /* AIBO_ControllerTests.swift */; };
 		0D04C45C24BB6B9800E70F40 /* AIBO_ControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04C45B24BB6B9800E70F40 /* AIBO_ControllerUITests.swift */; };
-		0D488F6124BC9D430056865C /*  Sounds.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D488F6024BC9D430056865C /*  Sounds.xcassets */; };
-		0D488F6224BC9D430056865C /*  Sounds.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D488F6024BC9D430056865C /*  Sounds.xcassets */; };
-		0D488F6324BC9D430056865C /*  Sounds.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D488F6024BC9D430056865C /*  Sounds.xcassets */; };
-		0D488F6524BC9E020056865C /* AIBO充電体勢.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D488F6424BC9E020056865C /* AIBO充電体勢.m4a */; };
-		0D488F6624BC9E020056865C /* AIBO充電体勢.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D488F6424BC9E020056865C /* AIBO充電体勢.m4a */; };
-		0D488F6724BC9E020056865C /* AIBO充電体勢.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D488F6424BC9E020056865C /* AIBO充電体勢.m4a */; };
+		0D488F7124BCAE810056865C /* ChargingMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D488F6A24BCA8880056865C /* ChargingMusic.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +40,6 @@
 		0D04C43B24BB6B9300E70F40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0D04C43D24BB6B9300E70F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D04C44024BB6B9300E70F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D04C44224BB6B9700E70F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D04C44524BB6B9700E70F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D04C44724BB6B9700E70F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D04C44C24BB6B9800E70F40 /* AIBO_ControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIBO_ControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,8 +48,8 @@
 		0D04C45724BB6B9800E70F40 /* AIBO_ControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIBO_ControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D04C45B24BB6B9800E70F40 /* AIBO_ControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIBO_ControllerUITests.swift; sourceTree = "<group>"; };
 		0D04C45D24BB6B9800E70F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D488F6024BC9D430056865C /*  Sounds.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = " Sounds.xcassets"; sourceTree = "<group>"; };
-		0D488F6424BC9E020056865C /* AIBO充電体勢.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AIBO充電体勢.m4a"; path = "../../../../../Downloads/AIBO充電体勢.m4a"; sourceTree = "<group>"; };
+		0D488F6824BCA7240056865C /* ChargingMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = ChargingMusic.m4a; path = ../../../../Downloads/ChargingMusic.m4a; sourceTree = "<group>"; };
+		0D488F6A24BCA8880056865C /* ChargingMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChargingMusic.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +80,7 @@
 		0D04C42D24BB6B9200E70F40 = {
 			isa = PBXGroup;
 			children = (
+				0D488F6824BCA7240056865C /* ChargingMusic.m4a */,
 				0D04C43824BB6B9300E70F40 /* AIBO_Controller */,
 				0D04C44F24BB6B9800E70F40 /* AIBO_ControllerTests */,
 				0D04C45A24BB6B9800E70F40 /* AIBO_ControllerUITests */,
@@ -111,11 +105,9 @@
 				0D04C43B24BB6B9300E70F40 /* SceneDelegate.swift */,
 				0D04C43D24BB6B9300E70F40 /* ViewController.swift */,
 				0D04C43F24BB6B9300E70F40 /* Main.storyboard */,
-				0D04C44224BB6B9700E70F40 /* Assets.xcassets */,
 				0D04C44424BB6B9700E70F40 /* LaunchScreen.storyboard */,
 				0D04C44724BB6B9700E70F40 /* Info.plist */,
-				0D488F6424BC9E020056865C /* AIBO充電体勢.m4a */,
-				0D488F6024BC9D430056865C /*  Sounds.xcassets */,
+				0D488F6F24BCAD4D0056865C /* Musics */,
 			);
 			path = AIBO_Controller;
 			sourceTree = "<group>";
@@ -136,6 +128,14 @@
 				0D04C45D24BB6B9800E70F40 /* Info.plist */,
 			);
 			path = AIBO_ControllerUITests;
+			sourceTree = "<group>";
+		};
+		0D488F6F24BCAD4D0056865C /* Musics */ = {
+			isa = PBXGroup;
+			children = (
+				0D488F6A24BCA8880056865C /* ChargingMusic.m4a */,
+			);
+			path = Musics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,10 +242,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D488F6524BC9E020056865C /* AIBO充電体勢.m4a in Resources */,
-				0D488F6124BC9D430056865C /*  Sounds.xcassets in Resources */,
+				0D488F7124BCAE810056865C /* ChargingMusic.m4a in Resources */,
 				0D04C44624BB6B9700E70F40 /* LaunchScreen.storyboard in Resources */,
-				0D04C44324BB6B9700E70F40 /* Assets.xcassets in Resources */,
 				0D04C44124BB6B9300E70F40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,8 +252,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D488F6624BC9E020056865C /* AIBO充電体勢.m4a in Resources */,
-				0D488F6224BC9D430056865C /*  Sounds.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +259,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D488F6724BC9E020056865C /* AIBO充電体勢.m4a in Resources */,
-				0D488F6324BC9D430056865C /*  Sounds.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

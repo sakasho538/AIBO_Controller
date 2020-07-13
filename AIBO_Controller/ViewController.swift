@@ -7,8 +7,13 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    let ChargingMusicPath = Bundle.main.bundleURL.appendingPathComponent("ChargingMusic.m4a")
+    var musicPlayer = AVAudioPlayer()
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +21,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func ChargingPosition(_ sender: Any) {
+        do{
+            musicPlayer = try AVAudioPlayer(contentsOf:  ChargingMusicPath)
+            musicPlayer.play()
+        }catch{
+            print("エラー")
+        }
     }
     
 }

@@ -26,6 +26,9 @@
                                 <rect key="frame" x="37" y="144" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="充電体勢"/>
+                                <connections>
+                                    <action selector="ChargingPosition:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XuQ-nt-A2O"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

@@ -15,24 +15,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="AIBOコントローラー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFJ-mP-RYz">
-                                <rect key="frame" x="127" y="73" width="160" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahl-aC-VZb">
+                                <rect key="frame" x="127" y="137" width="62" height="30"/>
+                                <state key="normal" title="充電体勢"/>
+                                <connections>
+                                    <action selector="ChargingPosition:" destination="Q2Z-AY-zpU" eventType="touchUpInside" id="rDs-A5-u4A"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AIBOコントローラー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFJ-mP-RYz">
+                                <rect key="frame" x="127" y="78" width="160" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahl-aC-VZb">
-                                <rect key="frame" x="37" y="137" width="62" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="充電体勢"/>
-                                <connections>
-                                    <action selector="ChargingPosition:" destination="Q2Z-AY-zpU" eventType="touchUpInside" id="aCT-Sq-MQ5"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="ahl-aC-VZb" firstAttribute="top" secondItem="BFJ-mP-RYz" secondAttribute="bottom" constant="38" id="Rdx-xY-NnW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ahl-aC-VZb" secondAttribute="trailing" symbolic="YES" id="YSs-lP-qn1"/>
                             <constraint firstItem="BFJ-mP-RYz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dEm-1F-Lqz"/>
+                            <constraint firstItem="BFJ-mP-RYz" firstAttribute="leading" secondItem="ahl-aC-VZb" secondAttribute="leading" id="l2z-Qe-58A"/>
+                            <constraint firstItem="BFJ-mP-RYz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="w8r-eD-7YH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
