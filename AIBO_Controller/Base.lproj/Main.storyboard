@@ -23,11 +23,43 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ww4-Qb-7i8">
-                                <rect key="frame" x="37" y="144" width="62" height="30"/>
+                                <rect key="frame" x="86" y="143" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="充電体勢"/>
                                 <connections>
                                     <action selector="ChargingPosition:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XuQ-nt-A2O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEo-bh-2Ue">
+                                <rect key="frame" x="275" y="143" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="音量大"/>
+                                <connections>
+                                    <action selector="VolumeUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ot-ig-UeN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Wf-H2-hWh">
+                                <rect key="frame" x="275" y="213" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="音量小"/>
+                                <connections>
+                                    <action selector="VolumeDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IgG-Dt-F9D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q98-bf-L5m">
+                                <rect key="frame" x="86" y="181" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="スリープ"/>
+                                <connections>
+                                    <action selector="Sleep:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xbr-2V-V9e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbK-Hz-eNP">
+                                <rect key="frame" x="66" y="219" width="102" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="8時間スリープ"/>
+                                <connections>
+                                    <action selector="EightSleep:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2CI-ho-MRQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -37,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-57" y="127"/>
+            <point key="canvasLocation" x="-57.971014492753625" y="126.5625"/>
         </scene>
     </scenes>
 </document>

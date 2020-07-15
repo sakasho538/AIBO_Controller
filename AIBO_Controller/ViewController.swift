@@ -11,6 +11,9 @@ import AVFoundation
 
 class ViewController: UIViewController {
     let ChargingMusicPath = Bundle.main.bundleURL.appendingPathComponent("ChargingMusic.m4a")
+    let SleepMusicPath = Bundle.main.bundleURL.appendingPathComponent("SleepMusic.m4a")
+    let EightSleepMusicPath = Bundle.main.bundleURL.appendingPathComponent("EightSleepMusic.m4a")
+    
     var musicPlayer = AVAudioPlayer()
     
     
@@ -28,6 +31,34 @@ class ViewController: UIViewController {
             print("エラー")
         }
     }
+    
+    
+    @IBAction func Sleep(_ sender: Any) {
+        do{
+            musicPlayer =  try AVAudioPlayer(contentsOf: SleepMusicPath)
+            musicPlayer.play()
+        }catch{
+            print("エラー")
+        }
+    }
+    
+    
+    @IBAction func EightSleep(_ sender: Any) {
+        do{
+            musicPlayer = try AVAudioPlayer(contentsOf: EightSleepMusicPath)
+            musicPlayer.play()
+        }catch{
+            print("エラー")
+        }
+    }
+    
+    @IBAction func VolumeUp(_ sender: Any) {
+    }
+    
+    @IBAction func VolumeDown(_ sender: Any) {
+    }
+    
+    
     
 }
 

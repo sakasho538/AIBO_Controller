@@ -15,6 +15,12 @@
 		0D04C45124BB6B9800E70F40 /* AIBO_ControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04C45024BB6B9800E70F40 /* AIBO_ControllerTests.swift */; };
 		0D04C45C24BB6B9800E70F40 /* AIBO_ControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04C45B24BB6B9800E70F40 /* AIBO_ControllerUITests.swift */; };
 		0D488F7124BCAE810056865C /* ChargingMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D488F6A24BCA8880056865C /* ChargingMusic.m4a */; };
+		0D53B00724BF5D61006EDE5B /* EightSleepMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D53B00624BF5D61006EDE5B /* EightSleepMusic.m4a */; };
+		0D53B00824BF5D61006EDE5B /* EightSleepMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D53B00624BF5D61006EDE5B /* EightSleepMusic.m4a */; };
+		0D53B00924BF5D61006EDE5B /* EightSleepMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D53B00624BF5D61006EDE5B /* EightSleepMusic.m4a */; };
+		0D53B00B24BF5D6D006EDE5B /* SleepMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D53B00A24BF5D6D006EDE5B /* SleepMusic.m4a */; };
+		0D53B00C24BF5D6D006EDE5B /* SleepMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D53B00A24BF5D6D006EDE5B /* SleepMusic.m4a */; };
+		0D53B00D24BF5D6D006EDE5B /* SleepMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D53B00A24BF5D6D006EDE5B /* SleepMusic.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,8 @@
 		0D04C45D24BB6B9800E70F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D488F6824BCA7240056865C /* ChargingMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = ChargingMusic.m4a; path = ../../../../Downloads/ChargingMusic.m4a; sourceTree = "<group>"; };
 		0D488F6A24BCA8880056865C /* ChargingMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChargingMusic.m4a; sourceTree = "<group>"; };
+		0D53B00624BF5D61006EDE5B /* EightSleepMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = EightSleepMusic.m4a; path = ../../../../../../Downloads/EightSleepMusic.m4a; sourceTree = "<group>"; };
+		0D53B00A24BF5D6D006EDE5B /* SleepMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = SleepMusic.m4a; path = ../../../../../../Downloads/SleepMusic.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +141,9 @@
 		0D488F6F24BCAD4D0056865C /* Musics */ = {
 			isa = PBXGroup;
 			children = (
+				0D53B00624BF5D61006EDE5B /* EightSleepMusic.m4a */,
 				0D488F6A24BCA8880056865C /* ChargingMusic.m4a */,
+				0D53B00A24BF5D6D006EDE5B /* SleepMusic.m4a */,
 			);
 			path = Musics;
 			sourceTree = "<group>";
@@ -244,7 +254,9 @@
 			files = (
 				0D488F7124BCAE810056865C /* ChargingMusic.m4a in Resources */,
 				0D04C44624BB6B9700E70F40 /* LaunchScreen.storyboard in Resources */,
+				0D53B00724BF5D61006EDE5B /* EightSleepMusic.m4a in Resources */,
 				0D04C44124BB6B9300E70F40 /* Main.storyboard in Resources */,
+				0D53B00B24BF5D6D006EDE5B /* SleepMusic.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D53B00C24BF5D6D006EDE5B /* SleepMusic.m4a in Resources */,
+				0D53B00824BF5D61006EDE5B /* EightSleepMusic.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D53B00D24BF5D6D006EDE5B /* SleepMusic.m4a in Resources */,
+				0D53B00924BF5D61006EDE5B /* EightSleepMusic.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
