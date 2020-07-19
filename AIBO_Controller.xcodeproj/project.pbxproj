@@ -21,6 +21,7 @@
 		0D53B00B24BF5D6D006EDE5B /* SleepMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D53B00A24BF5D6D006EDE5B /* SleepMusic.m4a */; };
 		0D53B00C24BF5D6D006EDE5B /* SleepMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D53B00A24BF5D6D006EDE5B /* SleepMusic.m4a */; };
 		0D53B00D24BF5D6D006EDE5B /* SleepMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0D53B00A24BF5D6D006EDE5B /* SleepMusic.m4a */; };
+		0DD975A724C4AF8B00DA6E43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD975A624C4AF8B00DA6E43 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		0D488F6A24BCA8880056865C /* ChargingMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChargingMusic.m4a; sourceTree = "<group>"; };
 		0D53B00624BF5D61006EDE5B /* EightSleepMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = EightSleepMusic.m4a; path = ../../../../../../Downloads/EightSleepMusic.m4a; sourceTree = "<group>"; };
 		0D53B00A24BF5D6D006EDE5B /* SleepMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = SleepMusic.m4a; path = ../../../../../../Downloads/SleepMusic.m4a; sourceTree = "<group>"; };
+		0DD975A624C4AF8B00DA6E43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				0D04C44424BB6B9700E70F40 /* LaunchScreen.storyboard */,
 				0D04C44724BB6B9700E70F40 /* Info.plist */,
 				0D488F6F24BCAD4D0056865C /* Musics */,
+				0DD975A624C4AF8B00DA6E43 /* Images.xcassets */,
 			);
 			path = AIBO_Controller;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				0D488F7124BCAE810056865C /* ChargingMusic.m4a in Resources */,
 				0D04C44624BB6B9700E70F40 /* LaunchScreen.storyboard in Resources */,
 				0D53B00724BF5D61006EDE5B /* EightSleepMusic.m4a in Resources */,
+				0DD975A724C4AF8B00DA6E43 /* Images.xcassets in Resources */,
 				0D04C44124BB6B9300E70F40 /* Main.storyboard in Resources */,
 				0D53B00B24BF5D6D006EDE5B /* SleepMusic.m4a in Resources */,
 			);
