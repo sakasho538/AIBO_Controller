@@ -31,14 +31,6 @@
                                     <action selector="VolumeUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ot-ig-UeN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Wf-H2-hWh">
-                                <rect key="frame" x="275" y="219" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="音量小"/>
-                                <connections>
-                                    <action selector="VolumeDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IgG-Dt-F9D"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q98-bf-L5m">
                                 <rect key="frame" x="86" y="181" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -62,6 +54,14 @@
                                     <navigationItem title="AIBO Controller" id="8Uk-G9-ItP"/>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Wf-H2-hWh">
+                                <rect key="frame" x="275" y="219" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="音量小"/>
+                                <connections>
+                                    <action selector="VolumeDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IgG-Dt-F9D"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

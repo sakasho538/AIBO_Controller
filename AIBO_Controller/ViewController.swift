@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     let ChargingMusicPath = Bundle.main.bundleURL.appendingPathComponent("ChargingMusic.m4a")
     let SleepMusicPath = Bundle.main.bundleURL.appendingPathComponent("SleepMusic.m4a")
     let EightSleepMusicPath = Bundle.main.bundleURL.appendingPathComponent("EightSleepMusic.m4a")
+    let VolumeUpMusicPath = Bundle.main.bundleURL.appendingPathComponent("VolumeUpMusic.m4a")
+    let VolumeDownMusicPath = Bundle.main.bundleURL.appendingPathComponent("VolumeDownMusic.m4a")
+    
     
     var musicPlayer = AVAudioPlayer()
     
@@ -53,9 +56,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func VolumeUp(_ sender: Any) {
+        do{
+            musicPlayer = try AVAudioPlayer(contentsOf: VolumeUpMusicPath)
+            musicPlayer.play()
+        }catch{
+            print("エラー")
+        }
     }
     
     @IBAction func VolumeDown(_ sender: Any) {
+        do{
+            musicPlayer = try AVAudioPlayer(contentsOf: VolumeDownMusicPath)
+            musicPlayer.play()
+        }catch{
+            print("エラー")
+        }
     }
     
     
